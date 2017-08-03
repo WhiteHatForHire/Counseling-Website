@@ -1,10 +1,15 @@
+/* font-family: 'Federo', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Abril Fatface', cursive; */
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
     line-height: 1.5;
     padding:0;
     margin:0;
-    background-color: #f4f4f4;
+    background-color: #e0d8ce;
 }
 
 /* Global */
@@ -29,11 +34,16 @@ ul {
 
 /* Header */
 header{
+    font-family: 'Federo', sans-serif;
     background:#35424a;
-    color:#ffffff;
+    color:#f7e7b4;
     padding-top:30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #F7E7B4 3px solid;
+}
+
+h3 {
+    color: white;
 }
 
 header a{
@@ -64,7 +74,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #F7E7B4
     font-weight: bold;
 }
 
@@ -78,7 +88,7 @@ header a:hover{
     background: url('../img/jawn.jpg') no-repeat 0 0;
     text-align: center;
     color: black;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #F7E7B4 3px solid;
 }
 
 #showcase h1{
@@ -138,7 +148,7 @@ footer{
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e8491d;
+    background-color: #F7E7B4;
     text-align: center;
 }
 
