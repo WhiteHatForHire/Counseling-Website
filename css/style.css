@@ -19,6 +19,10 @@ body{
     overflow: hidden;  
 }
 
+#main {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -37,9 +41,14 @@ header{
     font-family: 'Federo', sans-serif;
     background:#35424a;
     color:#f7e7b4;
-    padding-top:30px;
-    min-height: 70px;
+    padding-top:10px;
+    min-height: 50px;
     border-bottom: #F7E7B4 3px solid;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h3 {
@@ -74,7 +83,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #F7E7B4
+    color: #F7E7B4;
     font-weight: bold;
 }
 
@@ -89,6 +98,7 @@ header a:hover{
     text-align: center;
     color: black;
     border-bottom: #F7E7B4 3px solid;
+    margin-top: 65px;
 }
 
 #showcase h1{
@@ -122,11 +132,15 @@ aside#sidebar{
 }
 
 aside#sidebar .quote textarea{
-    width: 90%;
+    width: 100%;
     padding: 5px;
 }
 
 /* Main-con */
+
+#main {
+    margin-top: 100px;
+}
 
 article#main-col{
     float:left;
@@ -147,7 +161,7 @@ ul#services li{
 footer{
     padding: 20px;
     margin-top: 20px;
-    color: #ffffff;
+    color: black;
     background-color: #F7E7B4;
     text-align: center;
 }
