@@ -29,11 +29,11 @@ ul {
 }
 
 .dark{
-    padding: 15px;
+    padding: 25px;
     background: #35424a;
     color: #ffffff;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Header */
@@ -111,28 +111,18 @@ header a:hover{
     font-size:20px;
 }
 
-/* Boxes */
-#boxes{
-    margin-top: 20px;
-}
 
-#boxes .box{
-    float: left;
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-}
 
 /* sidebar */
 
 aside#sidebar{
     float: right;
     width: 30%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 aside#sidebar .quote textarea{
-    width: 100%;
+    width: 90%;
     padding: 5px;
 }
 
