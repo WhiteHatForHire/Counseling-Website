@@ -170,7 +170,7 @@ footer{
     }   
 
     header{
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     #showcase h1{
@@ -178,4 +178,20 @@ footer{
     }
 
 
+}
+
+/* contact */
+
+#contact_info {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* links */
+
+#links{
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: none;
 }
