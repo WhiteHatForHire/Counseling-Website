@@ -112,30 +112,24 @@ header a:hover{
 }
 
 
+/*about*/
+.container1{
+    margin-top: 90px;
+    text-align: left;
+    list-style-position: inside;
+    margin-left: 300px;
+    float: left;
+}
 
-/* sidebar */
-
-aside#sidebar{
+.container2{
+   margin-top: 90px;
+    text-align: left;
+    list-style-position: inside;
+    margin-right: 300px;
     float: right;
-    width: 30%;
-    margin-top: 15px;
 }
 
-aside#sidebar .quote textarea{
-    width: 90%;
-    padding: 5px;
-}
 
-/* Main-con */
-
-#main {
-    margin-top: 100px;
-}
-
-article#main-col{
-    float:left;
-    width:65%;
-}
 
 /* Services */
 
@@ -147,13 +141,17 @@ ul#services li{
     background: #e6e6e6;
 }
 
+html {
+  overflow-y: scroll;
+}
 
 footer{
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     color: black;
     background-color: #F7E7B4;
     text-align: center;
+    clear: both;
 }
 
 /* Media Queries */
@@ -193,5 +191,14 @@ footer{
 #links{
     margin-top: 100px;
     text-align: center;
-    text-decoration: none;
+}
+
+
+/*philosophy*/
+
+#philosophy{
+    padding-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 75%;
+    padding-left: 150px;
 }
