@@ -119,6 +119,7 @@ header a:hover{
     list-style-position: inside;
     margin-left: 300px;
     float: left;
+    margin-bottom: 50px;
 }
 
 .container2{
@@ -127,6 +128,7 @@ header a:hover{
     list-style-position: inside;
     margin-right: 300px;
     float: right;
+    margin-bottom: 20px;
 }
 
 
