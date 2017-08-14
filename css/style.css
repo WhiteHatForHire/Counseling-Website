@@ -112,7 +112,7 @@ header a:hover{
 }
 
 
-/*about*/
+/*about
 .container1{
     margin-top: 90px;
     text-align: left;
@@ -130,7 +130,16 @@ header a:hover{
     float: right;
     margin-bottom: 20px;
 }
+*/
 
+.container1{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.container2{
+    text-align: center;
+}
 
 
 /* Services */
