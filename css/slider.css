@@ -11,9 +11,9 @@
 }
 
 #slider > img{
-    width: 700px;
-    height: 500px;
-    float: left;
+    width: 700;
+	height:auto;
+    float: center;
     display: none;
 }
 
