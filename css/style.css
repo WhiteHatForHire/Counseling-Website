@@ -3,13 +3,19 @@ font-family: 'Cinzel', serif;
 font-family: 'Poiret One', cursive;
 font-family: 'Abril Fatface', cursive; */
 
+
+#slider {
+    text-align: center;
+}
 body{
     font-family: 'Cinzel', serif;
     font-size: 18px;
     line-height: 1.5;
-    padding:0;
+    padding-top:35px;
     margin:0;
     background-color: #e0d8ce;
+    overflow: hidden;
+    height: 100%;
 }
 
 /* Global */
@@ -195,13 +201,23 @@ footer{
         text-align: center;
         width: 100%;
     }   
-   
+   header h1 {
+       font-size: 16px;
+   }
     header{
         margin-bottom: 0px;
+        
+    }
+    body{
+        padding-top: 45px;
+    }
+    section{
+        padding-top: 0px;
     }
 
-    #showcase h1{
+    /* #showcase h1{
         margin-top: 150px;
+
     }
 
     #contact_info{
@@ -216,6 +232,9 @@ footer{
     }
     #main{
         padding-top: 150px;
+    } */
+    #slider {
+        display: none;
     }
 }
 
